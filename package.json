@@ -1,0 +1,19 @@
+{
+  "name": "graphqlandmongo",
+  "version": "1.0.0",
+  "description": "Backend setup with Mongo and GraphQL",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Safiul Hasan",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "mongoose": "^5.4.19"
+  }
+}
